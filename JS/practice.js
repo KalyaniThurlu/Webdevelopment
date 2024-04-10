@@ -157,4 +157,68 @@ for (let i = 0; i < Num.length; i++) {
   }
 }
 console.log(oddnum);
-let exnum;
+
+let expositivenum = [1, -2, 3, -4, -6, 5, -7, 8];
+let Positive = [];
+for (let i = 0; i < expositivenum.length; i++) {
+  if (expositivenum[i] > 0) {
+    Positive.push(expositivenum[i]);
+  }
+}
+console.log(Positive);
+let negtive = [1, -2, -3, 4, -5, 6, -7, 8, 9, 10];
+let exnegtive = [];
+for (let i = 0; i < negtive.length; i++) {
+  if (negtive[i] < 0) {
+    exnegtive.push(negtive[i]);
+  }
+}
+console.log(exnegtive);
+let exbignum = [10, 20, 30, 40, 50, 60, 100, 200];
+let bignum = 20;
+for (let i = 0; i < exbignum.length; i++) {
+  if (exbignum[i] > bignum) {
+    bignum = exbignum[i];
+  }
+}
+console.log(bignum);
+let exminnum = [1, 0, 3, 4, 6, 9, 8, 5, -1];
+let minnum = 5;
+for (let i = 0; i < exminnum.length; i++) {
+  if (exminnum[i] < minnum) {
+    minnum = exminnum[i];
+  }
+}
+console.log(minnum);
+const emp = [
+  { name: "kalyani", id: 1001 },
+  { name: "latha", id: 1002 },
+  { name: "Geetha", id: 1003 },
+];
+console.table(emp.filter((e) => e.name.startsWith("l")));
+const employee = [
+  { name: "padhma", Dob: 1991 },
+  { name: "mahima", Dob: 2002 },
+  { name: "preethi", Dob: 2004 },
+];
+const currentyear = new Date().getFullYear();
+for (let employees of employee) {
+  employees.age = currentyear - employees.Dob;
+}
+console.table(employee);
+//===logical oparetors======;
+let a = 10,
+  b = 20,
+  c = 30;
+const My = () => {
+  if (a === b) {
+    console.log("a is eqults to b");
+  } else if (c > b) {
+    console.log("c is greater than b");
+  } else if (a > b || c == a) {
+    console.log("a is lessthan b are c eqults to a");
+  } else {
+    console.log("All are wrong");
+  }
+};
+My();
