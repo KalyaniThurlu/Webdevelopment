@@ -80,3 +80,81 @@ const sentence = "Hello, World!";
 const newStr = sentence.replace("Hello", "Hi");
 
 console.log(newStr);
+///========Functionsinjs======
+function myFun(a, b) {
+  return a + b;
+}
+let RSt = myFun(2, 3);
+console.log(RSt);
+
+function Withoutparam() {
+  return "hello";
+}
+let rr = Withoutparam();
+console.log(rr);
+
+function WithoutReturn() {
+  console.log("wellcome");
+}
+WithoutReturn();
+function WithOutreturnWithparam(name, id) {
+  console.log(name + id);
+}
+WithOutreturnWithparam("kalyani", 1001);
+const myfun = (a, b) => {
+  return a + b;
+};
+console.log(myFun(29, 30));
+const withoutparam = () => {
+  return "hi";
+};
+console.log(withoutparam());
+const withoutreturn = () => {
+  console.log("this is my first programme");
+};
+withoutreturn();
+const withparam = (a, b) => {
+  console.log(a + b);
+};
+withparam(20, 20);
+//=======ForLoop==========;
+for (let i = 0; i <= 100; i++) {
+  console.log("wellcome" + i);
+}
+for (let i = 2; i <= 2; i++) {
+  for (let j = 1; j <= 10; j++) {
+    console.log(i + "*" + j + "=" + i * j);
+  }
+}
+for (let i = 1; i <= 5; i++) {
+  row = "";
+  for (let j = i; j <= 5; j++) {
+    row += "*";
+  }
+  console.log(row);
+}
+for (let i = 1; i <= 5; i++) {
+  row = "";
+  for (let j = 1; j <= i; j++) {
+    row += "*";
+  }
+  console.log(row);
+}
+let num = [1, 2, 3, 4, 5, 7, 6, 8, 9, 10];
+let evennun = [];
+for (let i = 0; i < num.length; i++) {
+  if (num[i] % 2 === 0) {
+    evennun.push(num[i]);
+  }
+}
+console.log(evennun);
+
+let Num = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+let oddnum = [];
+for (let i = 0; i < Num.length; i++) {
+  if (Num[i] % 2 !== 0) {
+    oddnum.push(Num[i]);
+  }
+}
+console.log(oddnum);
+let exnum;
