@@ -1,69 +1,76 @@
-let arry = [1, 2, 3, 4, 5];
-let exarry = arry.pop();
-console.log(arry);
-let Arry = [1, 0, 3, 4, 5, 2];
-let exArry = Arry.push(9);
-console.log(Arry);
-let frt = ["banana", "apple", "grapes"];
-let exfrt = frt.shift();
-console.log(frt);
-let fruits = ["guvo", "mango", "banana"];
-let exfruits = fruits.unshift("watermillon");
-console.log(fruits);
-let exfilter = [1, 7, 6, 5, 4, 3, 2];
-let rst = exfilter.filter(function (e) {
+let arr = [1, 2, 3, 4, 5];
+let exarr = arr.push(6);
+console.log(arr);
+
+let Arr = [1, 2, 3, 4, 5, 6];
+let ExArr = Arr.pop();
+console.log(Arr);
+
+let books = ["thelugu", "english", "hindhi", "scince"];
+let exbooks = books.shift();
+console.log(books);
+
+let student = ["latha", "madhu", "suma", "rama"];
+let exstudent = student.unshift("padhma");
+console.log(student);
+let exstd = [1, 5, 7, 6, 4, 3, 2];
+let example = exstd.filter(function (e) {
   return e % 2 === 0;
 });
-console.log(rst);
-let exmap = [
-  { name: "latha", id: 100 },
+console.log(example);
+let flowers = [
+  { name: "latha", id: 1001 },
   { name: "geetha", id: 1002 },
   { name: "suma", id: 1003 },
 ];
-let names = exmap.map(function (v) {
-  return v.id;
+let Ex = flowers.map(function (e) {
+  return e.id;
 });
-console.log(names);
-let exforeach = ["apple", "orange", "guava", "banana"];
-let Frt = exforeach.forEach(function (c) {
-  console.log(")" + c);
+console.log(Ex);
+let flw = ["rose", "white", "pink", "yellow"];
+let exflw = flw.forEach(function (e) {
+  console.log("finding " + ")" + e);
 });
-let veg = ["bringel", "ledifinger", "onion", "mirchi"];
-let exveg = veg.join("*");
-console.log(exveg);
-let std = "this is my first programme";
-let exstd = std.slice(5 - 12);
-console.log(exstd);
-let student = ["latha", "preethi", "mahima", "suma", "ramana"];
-let orr = student.splice(1 - 3);
-console.log(orr);
-let Veg = ["mirchi", "onion", "bringel", "ledifinger"];
-let exFrt = ["orange", "mango", "banana", "grapes"];
-let conbained = Veg.concat(exFrt);
-console.log(conbained);
-//=====String Methods=======
-let word = "hello";
-let exword = word.toUpperCase();
+let Add = ["telug", "hindhi", "english"];
+let exAdd = Add.join("*");
+console.log(exAdd);
+let color = "hello janu";
+let excolor = color.slice(3, 8);
+console.log(excolor);
+let clr = ["pink", "blue", "white", "red", "black"];
+let exclr = clr.splice(1 - 3);
+console.log(clr);
+//======string Methods========
+let str = "wellcome";
+let exstr = str.toUpperCase();
+console.log(exstr);
+let string = "HELLO";
+let exstring = string.toLowerCase();
+console.log(exstring);
+let Sub = ["telugu", "hindhi", "english"];
+let exsub = Sub.includes("hindhi");
+console.log(exsub);
+
+let word = "hi kalyani";
+let exword = word.replace("hi", "hello");
 console.log(exword);
 
-let Sentence = "THIS IS MY FIRST PROGRAMME";
-let exsentences = Sentence.toLowerCase();
-console.log(exsentences);
+let sentence = "this is my first programme";
+let exsentence = sentence.split("i");
+console.log(exsentence);
 
-let subject = ["telugu", "hindhi", "english"];
-let exsubject = subject.includes("hindhi");
-console.log(exsubject);
+let veg = "potato";
+let exveg = veg.charAt(3);
+console.log(exveg);
 
-let world = ["kalyani      hello"];
-let exworld = word.replace("hello", "hi");
+let world = "hello";
+let exworld = world.substring(3);
 console.log(exworld);
-let sen = ["this is my first  class"];
-let namess = "        madhu";
-let exnamess = namess.trimStart();
-console.log(exnamess);
-let Name = "suma       ";
-let exName = Name.trimEnd();
-console.log(exName);
-let Std = "hello";
-let exStd = Std.charAt();
-console.log(exStd);
+
+let indexof = ["madhu", "latha", "suma", "priya"];
+let exindexof = indexof.indexOf("suma");
+console.log(exindexof);
+let names = ["mahima", "pavi", "Reshma", "Suma"];
+let id = [1001, 1002, 1003];
+let combaind = names.concat(id);
+console.log(combaind);
