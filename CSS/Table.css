@@ -1,9 +1,9 @@
-th,#color{
-    background-color: brown;
-}
-td,tr,#background{
-    background-color: purple;
-}
-#first{
+#color{
     background-color: green;
+}
+td{
+    background-color: gray;
+}
+th{
+    background-color: brown;
 }
