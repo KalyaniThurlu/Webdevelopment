@@ -1,0 +1,9 @@
+th,#color{
+    background-color: brown;
+}
+td,tr,#background{
+    background-color: purple;
+}
+#first{
+    background-color: green;
+}
