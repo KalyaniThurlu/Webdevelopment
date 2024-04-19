@@ -1,0 +1,13 @@
+#text{
+    background-color:brown ;
+}
+#one{
+    color: rgba(  60, 60, 67,0.5);
+}
+.set{
+   color: hsl(226, 91%, 48%);
+}
+#two{
+   
+  background-image: linear-gradient(to bottom, green, violet);
+}
