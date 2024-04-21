@@ -1,0 +1,37 @@
+fonts:
+font-family:sometimes browser may not support your font,so we gave multiple fonts as a font family.
+5 types of font family:
+serif--stroke
+sans-serif---no serif used  by most websites
+cursive
+fantasy
+monospace---type writing
+google fonts----get font-copy the @import line and paste at top of css file and mention font family in the selector.
+font weight---how much thickness/boldness from 100 to 900
+font style--italic,oblique---make it into 45 degrees
+3 properties
+initial--by default
+inherit---from parent 
+unset---to remove
+font varaint
+
+text properties:used for textual context
+text align
+text decoration--wavy,solid,underline
+text decoration line--underline,overline,line through
+text decoration color
+text transform---capitalize,
+text shadow---x axis , y axis 
+
+background properties:
+background image--
+body{
+    background: url('./')
+    background-repeat:repeatx,repeaty,repeat,norepeat
+    background image:
+    background size:auto,cover
+    background position--left,right,center
+    background size--contain,cover
+    background attachement---scroll,fix
+    
+}

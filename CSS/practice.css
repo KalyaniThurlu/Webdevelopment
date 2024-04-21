@@ -1,0 +1,7 @@
+.setcolor{
+    
+  background-image: radial-gradient(circle, purple,green,brown);
+}
+#selection{
+ background-color: hwb(60 20% 78%);
+}

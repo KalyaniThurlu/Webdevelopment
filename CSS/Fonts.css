@@ -1,0 +1,24 @@
+
+#test{
+   height: vh 20%;
+   width: vw 20%;
+   color: aqua;
+   border: solid hsl(240, 83%, 51%) 5px;
+   font-size: 1rem;
+}
+
+
+.color{
+   font-size:larger ;
+font-family: sans-serif;
+font-weight: 800;
+font-style:italic;
+background-image: url(../HTML/nature.jpg);
+
+}
+.one{
+    width: 150px;
+    height: 150px;
+    border:brown 5px solid;
+    margin: 5 px solid blue;
+}
