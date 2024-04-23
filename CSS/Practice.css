@@ -1,0 +1,23 @@
+#one{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+  
+    background-color: gray;
+    padding: 20px solid black;
+    border: 5px solid  purple;
+    margin: 60px;
+}
+#two{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    background-color: burlywood;
+    padding: 20px solid green;
+    border: 30px solid orange;
+    margin: 40px
+}
+
+#color{
+    background-color: #1e4dcf;
+}
