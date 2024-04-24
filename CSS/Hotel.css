@@ -1,0 +1,64 @@
+body{
+    padding: 0;
+    margin: 0;
+    position: relative;
+    background-image: url(../HTML/./Rever.jpg);
+}
+
+#color{
+    background-color: aqua;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#one{
+text-decoration-line: underline;
+}
+
+
+
+
+#top-right-content {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 10px;
+  background-color: #f0f0f0;
+}
+
+.color{
+    text-align: center;
+    text-decoration:underline;
+    color: plum;
+}
+
+image-top-right{
+
+  position: fixed;
+  top: 5px;
+  right: 5px;
+  padding: 100px;
+}
+
+
+   image{
+        display: inline-block;
+        flex-direction: row-reverse;
+    }
+ 
+    
+
+    .container {
+  display: flex;
+  justify-content: space-between; /* Adjust as needed */
+  align-items: center;
+}
+
+.content {
+  flex: 1;
+  margin-right: 20px; /* Adjust spacing */
+}
+
+.image-container img {
+  max-width: 100%;
+  height: auto;
+}

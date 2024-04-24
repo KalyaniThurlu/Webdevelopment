@@ -1,0 +1,39 @@
+
+
+
+.container {
+  display: flex;
+ align-items:flex-start;
+}
+
+
+/*=== display property this is block element 
+/*div{
+    display: block;
+}*/
+/*=== display property this is inline 
+div{
+    display: inline;
+}*/
+
+/*this is  both propertys inline and block
+div{
+    display: inline-block;
+}
+*/
+/*
+div{
+   display: none; 
+}
+
+*/
+#image{
+  /*filter: blur(5px);*/
+
+  /*filter:opacity(0.3);*/
+ 
+
+  transform: rotate(45deg) translate(50px, 50px);
+}
+
+

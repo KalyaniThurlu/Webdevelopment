@@ -1,8 +1,9 @@
 #one{
     width: 100px;
     height: 100px;
-    text-align: center;
-  
+
+    
+    
     background-color: gray;
     padding: 20px solid black;
     border: 5px solid  purple;
@@ -18,6 +19,8 @@
     margin: 40px
 }
 
-#color{
+
+
+#color{ 
     background-color: #1e4dcf;
 }
