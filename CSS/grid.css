@@ -1,0 +1,52 @@
+body{
+    width: 100px;
+  height: 100px; 
+}
+
+.parent {
+display: grid;
+width: 700px;
+height: 100vh;
+grid-template-columns:1fr  2fr  1fr ;
+grid-row: 100px 200px;
+
+
+
+
+
+}
+
+
+
+
+#c1{
+  background-color: aqua;
+grid-row-start:1 ;
+grid-row-end:4 ;
+
+ 
+}
+#c2{
+  background-color: #30f029;
+grid-row: 1/2;
+
+  
+}
+#c3{
+  background-color: brown;
+  grid-row-start:2 ;
+  grid-row-end:4 ;
+
+
+}
+
+
+#c4{
+  background-color: cadetblue;
+
+  grid-row-end:2/4 ;
+
+}
+#c5{
+  background-color: chocolate;
+}
