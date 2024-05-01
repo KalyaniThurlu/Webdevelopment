@@ -1,0 +1,23 @@
+body{
+    background: linear-gradient(to left,blue,green);
+}
+#color{
+   display: inline-block;
+position: relative;
+gap: 10%;
+top:30%;
+left: 50%;
+ right: 20%;  
+ 
+ 
+    
+}
+h1{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+#color{
+    display: flex;
+}
