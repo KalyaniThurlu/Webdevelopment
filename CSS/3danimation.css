@@ -1,0 +1,29 @@
+
+body{
+    background: linear-gradient(to top,pink,#008000);
+    perspective: 1000px;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: peru;
+    transform-style: preserve-3d;
+    border-radius: 50px;
+    animation: rotateAnimation 5s infinite linear;  
+
+    
+}
+@keyframes rotateAnimation{
+    0%{
+        transform: rotateY(0deg)rotateX(0deg);
+    
+    }
+
+    50%{
+        transform: rotateY(180deg)rotateX(180deg);
+    }
+    100%{
+        transform: rotateY(360deg)rotateX(360deg);
+    }
+
+}

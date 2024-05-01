@@ -1,3 +1,6 @@
+
+
+
 #one{
     width: 100px;
     height: 100px;
@@ -23,4 +26,11 @@
 
 #color{ 
     background-color: #1e4dcf;
+}
+
+
+#container{
+    justify-content: center;
+    align-content: center;
+
 }

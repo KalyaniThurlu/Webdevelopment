@@ -1,0 +1,29 @@
+
+  #one {
+        width: 100px;
+        height: 100px;
+        background-color: blue;
+        position: relative;
+        transition-duration: 2s;
+        animation:  2s ease-in-out infinite alternate;
+     
+        
+    }
+
+       @keyframes box {
+        0% {
+            left: 0;
+
+        }
+      20%{
+            left: 400px;
+            background-color: burlywood;
+        }
+        40%{
+            bottom: 200px;
+        }
+
+    }
+    #one:hover{
+background-color: aquamarine;
+    }

@@ -1,0 +1,90 @@
+.main{
+  display: flex;
+   justify-content: center; 
+
+   
+
+   
+   
+  
+   
+}
+.color{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    padding: 5px;
+    margin: 10px;
+
+    
+    
+} 
+/*#one{
+    position: absolute;
+}*/
+#two{
+    position: sticky;/* relative: move to prvious postion*/
+                       /* absolute move to   depending body
+                       fixed in same to absolute but not scrolling
+                      sticky
+                      
+                    */
+           
+                   
+    text-align: center; 
+   
+    align-content: center;         
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+}
+
+#one:hover {
+    text-align: center;
+    align-content: center;
+    transform: skewX(40deg);/* this is X acxis 45 direes cross  and  mouser over change color*/
+  
+    position: relative;
+  left: 30px;
+    
+    right: 20px;
+    background-color: brown;
+    width:200px;
+    height:200px;
+
+    
+
+}
+
+#two:hover{
+background-color: burlywood;
+width: 200px;
+transform:skewY(45deg);
+transition-duration: 3s;
+transition-timing-function: ease-in-out; /* this 45degrees cross in y acxis color also chage*/
+
+}
+#three{
+    width: 100px;
+    height: 100px;
+    background-color: bisque;
+}
+
+#three:hover{
+    transform: translateY(50px);
+     background-color: orange;
+     transition-duration: 2s;
+     transition-timing-function: ease-in;
+     width: 200px;
+    
+  
+     
+     bottom: 50px;
+     left: 20px;
+}
+
+
+
+
+
+    

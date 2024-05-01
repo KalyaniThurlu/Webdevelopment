@@ -1,0 +1,68 @@
+
+body{
+    width: 1300px;
+    height: 700px;
+    border: 5px solid #74e021;
+    background-image: url(../project2.jpg);
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+}
+
+.main{
+    display: flex;
+    position: relative;
+    left: 8%;
+    right: 30%;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: oblique;
+    color: burlywood;
+}
+
+
+
+    
+.menu{
+
+ display: flex;
+    position: relative;
+    gap: 15px;
+    left: 60%;
+    right: 20%;  
+     
+    bottom: 60px;
+    background-color: brown;
+    width: 200px;
+    padding: 10px;
+}
+#nature{
+    display: flex;
+position: relative;
+left:10%;
+color: blueviolet; 
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+font-style: italic;
+}
+#para{
+        display: flex;
+position: relative;
+align-content: center;
+bottom: 30px;
+left: 5%;
+font-family:   "Jersey 20 Charted", sans-serif;
+  font-weight: 400; ;
+}
+#image{
+position: relative;
+left: 80%;
+top: 10%;
+
+
+
+align-items: center;
+ right: 10%; 
+ border-radius: 50px; 
+     
+ 
+  
+}
