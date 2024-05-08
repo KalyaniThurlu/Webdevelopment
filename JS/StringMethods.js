@@ -1,3 +1,36 @@
+//=====data types========;
+//========primiteve data types========
+//==number====Number:  numeric data, including integers and floating-point numbers.
+var a = 20;
+console.log(a);
+//===string====textual data, enclosed in single or double quotes.
+var name = "latha";
+console.log(name);
+
+//===boolean===isgiven true are flase
+
+function isRaining(number) {
+  return number % 2 === 0;
+}
+
+console.log(isRaining(5));
+console.log(isRaining(10));
+//===undefined=====undefide is absence of data but undefined also expects future occupation of data
+
+var names;
+console.log(names);
+//====null====
+var exnull = null;
+console.log(exnull);
+//======non-primitive data types=====
+//1 Array;
+//2 object
+// 3functions
+//===template=====
+var age = 10;
+var message = `i ma ${age}  years old,`;
+console.log(message);
+
 //=======String Methods========
 
 var string = "js is easy lerning programme";

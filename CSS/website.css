@@ -118,7 +118,7 @@ background-attachment: fixed;
       position: relative;
       margin-left: 40%;
     }
-    #About{
+    .About{
       position: relative;
       justify-content: center;
       align-items: center;
