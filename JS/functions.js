@@ -26,8 +26,10 @@ let y = 7;
 function nextValue() {
   return ++y;
 }
-console.log(y);
+
 nextValue();
+
+console.log(y);
 //clousers:inner functions can remember outer functions values
 function mad() {
   console.log("i am mad");

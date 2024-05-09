@@ -12,6 +12,8 @@ body{
 }
 #text{
     text-align: center;
+    
+    
 }
 #heading{
     position: relative;
@@ -24,6 +26,7 @@ padding: 20px;
     
     margin-top: 10%;
     margin-left: 30%;
+    animation: fadeIn 2s ease-in;
 }
 
 
@@ -38,6 +41,8 @@ padding: 20px;
 margin-left: 30%;
 
  
+
+
   
 }
 .images {
@@ -55,17 +60,17 @@ margin-left: 30%;
     margin-bottom: 40px;
 }
 
-.gallery{
+#gallery{
     display: flex;
       position: relative;
-  
-      align-items: center;
-      justify-content: center;
-      color: burlywood;
-      letter-spacing: 10px;
-   
-      
-      
+
+      float: right;
+    margin-top: 50px;
+      text-align: center;
+      padding: 20px;
+      color: hsl(239, 25%, 50%);
+    
+    
     }
 
 
@@ -77,4 +82,16 @@ margin-left: 30%;
     float: left;
     margin-left: 20px;
     background: radial-gradient(pink,green);
+}
+
+@keyframes fadeIn {
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+    color: burlywood;
+
+  }
+  
 }
