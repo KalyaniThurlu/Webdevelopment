@@ -1,0 +1,15 @@
+#heading{
+    display:flex;
+    position: relative;
+
+   
+    margin-left: 20px;
+}
+   #text{
+    display: flex;
+   
+    position: relative;
+    margin-left: 30px;
+    margin-right: 40%;
+   } 
+    

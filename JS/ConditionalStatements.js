@@ -97,3 +97,82 @@ function shortCode(str) {
 }
 
 shortCode("This Is Java Demo");
+//print in 5 table revers from 100 to 1
+for (let i = 100; i >= 0; i--) {
+  if ([i] % 5 === 0) {
+    console.log(i);
+  }
+}
+//print in odd nums 1 to 100
+for (let j = 0; j <= 100; j++) {
+  if ([j] % 2 !== 0) {
+    console.log(j);
+  }
+}
+//print in even 1 to 100
+for (let i = 0; i <= 100; i++) {
+  if ([i] % 2 === 0) {
+    console.log(i);
+  }
+}
+
+//take array[2,3,5,6,8,9]print all elements print all elements of using forloop
+let arr = [2, 3, 5, 6, 8, 9];
+for (let i = 0; i < arr.length; i++) {
+  //for in
+
+  for (let i of arr) {
+  }
+  console.log(i);
+}
+let Arr = [1, 4, 7, 3, 2, 9, 6, 8];
+for (let i = 0; i < Arr.length; i++) {
+  //for in used loop
+
+  for (let i in Arr) {
+  }
+  console.log(i);
+}
+function countCharacters(str) {
+  const vowels = "aeiouAEIOU";
+  let vowelCount = 0;
+  let consonantCount = 0;
+  let spaceCount = 0;
+
+  for (const char of str) {
+    if (vowels.includes(char)) {
+      vowelCount++;
+    } else if (char === " ") {
+      spaceCount++;
+    } else {
+      consonantCount++;
+    }
+  }
+
+  return {
+    vowels: vowelCount,
+    consonants: consonantCount,
+    spaces: spaceCount,
+  };
+}
+
+const inputString = "Hello World";
+const charCount = countCharacters(inputString);
+console.log(charCount);
+
+let mynum = [1, 3, 4, 3, 4, 2, 5, 1];
+let mynum1 = [];
+
+for (let i = 0; i < mynum.length; i++) {
+  let mynum2 = 0;
+  for (let j = 0; j < mynum1.length; j++) {
+    if (mynum[i] === mynum1[j]) {
+      mynum2++;
+    }
+  }
+  if (mynum2 === 0) {
+    mynum1.push(mynum[i]);
+  }
+}
+
+console.log(mynum1);
