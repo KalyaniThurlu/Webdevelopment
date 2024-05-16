@@ -119,7 +119,7 @@ for (let i = 0; i <= 100; i++) {
 //take array[2,3,5,6,8,9]print all elements print all elements of using forloop
 let arr = [2, 3, 5, 6, 8, 9];
 for (let i = 0; i < arr.length; i++) {
-  //for in
+  //for of
 
   for (let i of arr) {
   }
@@ -160,19 +160,61 @@ const inputString = "Hello World";
 const charCount = countCharacters(inputString);
 console.log(charCount);
 
-let mynum = [1, 3, 4, 3, 4, 2, 5, 1];
-let mynum1 = [];
+function countStr(str) {
+  let vowels = 0;
+  let consonants = 0;
+  let spaces = 0;
 
-for (let i = 0; i < mynum.length; i++) {
-  let mynum2 = 0;
-  for (let j = 0; j < mynum1.length; j++) {
-    if (mynum[i] === mynum1[j]) {
-      mynum2++;
+  for (let i = 0; i < str.length; i++) {
+    let char = str[i].toUpperCase();
+
+    if (
+      char === "A" ||
+      char === "E" ||
+      char === "I" ||
+      char === "O" ||
+      char === "U"
+    ) {
+      vowels++;
+    } else if (char >= "A" && char <= "Z") {
+      consonants++;
+    } else if (char === " ") {
+      spaces++;
     }
   }
-  if (mynum2 === 0) {
-    mynum1.push(mynum[i]);
-  }
+
+  return {
+    vowels: vowels,
+    consonants: consonants,
+    spaces: spaces,
+  };
 }
 
-console.log(mynum1);
+const str = "Welcome to JavaScript"; // Example string
+const counts = countStr(str); // Call the function and get the counts
+
+console.log("String:", str);
+console.log("Vowels:", counts.vowels);
+console.log("Consonants:", counts.consonants);
+console.log("Spaces:", counts.spaces);
+let vin = "hello";
+console.log(vin.toUpperCase());
+let exvin = "HELLO";
+let jan = "this is java script";
+console.log(jan.charAt("3"));
+let exjan = "wellcome";
+console.log(exjan.indexOf("e"));
+let Exjan = "wellcome";
+console.log(Exjan.lastIndexOf("e"));
+let exmy = "this is js";
+console.log(exmy.split("i"));
+let name = "kalyani";
+console.log(name.split("").reverse().join(""));
+let mname = "this is";
+console.log(mname.replace("this", "hello"));
+let bb = "   wellcome     ";
+console.log(bb.trim());
+let bg = "          wellcome";
+console.log(bg.trimStart());
+let df = "           hi";
+console.log(df.trimEnd());
