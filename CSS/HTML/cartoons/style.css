@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+
+}
+#library{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    gap: 20px;
+}
+.cartoonimg{
+width: 50px;
+height: 100px;
+}
+.cartoon{
+    
+    
+    box-shadow: 5px 5px;
+    padding: 20px;
+}
+h1{
+    text-align: center;
+}
