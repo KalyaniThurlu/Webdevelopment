@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#Accordin-container{
+    pad: 3rem
+    ;
+}
+#Accordin-header,
+#Accordin-body{
+padding: 1rem;
+}
