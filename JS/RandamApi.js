@@ -1,21 +1,21 @@
 const mainDiv = document.getElementById("image");
+
 function fetchData() {
-  "https://api.thecatapi.com/v1/images/search"
-    .then(function (res) {
-      console.log(res);
-      return res.json();
-    })
-    .then(function (data) {
+  fetch("https://api.thecatapi.com/v1/images/search").then(function (res) {
+    console.log(res);
+    return res.json().then(function (data) {
       console.log(data);
       displayData(data[0]);
     });
+  });
 }
+
 function displayData(data) {
-  const mainDiv = "";
-  const img = document.getElementById("img");
+  const img = document.createElement("img");
   img.src = data.url;
-  img.alt = cat - img;
+  img.alt = "cat-image";
   img.style.width = "100px";
-  img.style.height = "100px";
+  img.style.height = "200px";
+  mainDiv.appendChild(img);
 }
 document.getElementById("btn").addEventListener("click", fetchData);
