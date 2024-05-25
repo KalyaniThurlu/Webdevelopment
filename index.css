@@ -1,0 +1,9 @@
+body{
+    background-color: aqua;
+}
+#text{
+    color: brown;
+    margin-top: 50px;
+    text-align: center;
+    justify-content: center;
+}
