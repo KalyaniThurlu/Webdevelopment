@@ -1,0 +1,36 @@
+
+    body{
+        background: radial-gradient(#dc0e30,blue);
+    }
+.boxred{
+    background-color: #d30c0c;
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+}
+.boxblue{
+    background-color: #dc9223;
+     width: 100px;
+    height: 100px;
+       margin: 5px;
+
+}
+
+.boxgreen{
+    background-color: green;
+      width: 100px;
+    height: 100px;
+}
+.boxyellow{
+    background-color: hsl(230, 100%, 50%);
+      width: 100px;
+    height: 100px;
+}
+#color{
+    position: relative;
+    display: flex;
+    text-align: center;align-items: center;
+    margin-left: 20%;
+    margin-top: 40px;
+    gap: 20px;
+}
