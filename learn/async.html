@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      console.log("before settimeout code exicuted");
+      setTimeout(function () {
+        console.log("delayed 2 mins exicuted code");
+      }),
+        2000;
+    </script>
+    <script>
+      function fetchData(callback) {
+        setTimeout(function () {
+          console.log("exited fetchData:exicutd call  ");
+          callback();
+        }, 2000);
+      }
+      function callback() {
+        console.log("hi");
+      }
+      fetchData(callback);
+    </script>
+  </body>
+</html>

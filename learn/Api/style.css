@@ -1,0 +1,26 @@
+
+#products{
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(3 ,1fr);
+}
+ img{
+height: 200px;
+width: 200px;
+gap: 20px;
+background-color: aqua;
+box-shadow:  5px 5px black;
+
+
+}
+
+
+
+    .carts img {
+      transition: transform 2s;
+    }
+
+    .carts img:hover {
+      transform: scale(1.1);
+      background-color: blue;
+    }
