@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <script>
+
+        class  Database{
+            constructor(dbname){
+                document.write(`connected with ${dbname} Database`)
+            }
+            Insert(){
+                document.write("Record Inserted..")
+        
+            }
+            Delete(){
+                document.write("Record deleted")
+            }
+        }
+        
+        function InsertClick(){
+            let obj=new 
+            Database(document.querySelector("select").value);
+            obj.Insert()
+        
+        }
+        function DeleteClick(){
+            let obj= new Database(document.querySelector("select").value)
+            obj.Delete()
+        }
+        
+        
+            </script>
+</head>
+<body>
+    <select name="" id="">
+        <option value="">
+            select Database
+        </option>
+        <option value="">oracle</option>
+        <option value="">Mysql</option>
+        <option value="">MangoDb</option>
+    </select>
+    <button onclick="InsertClick()">Insert </button>
+    <button onclick="DeleteClick()">Delete</button>
+    
+</body>
+</html>
