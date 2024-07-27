@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+
+
+var  userName=prompt("Enter User name")
+var role=prompt("Enter your role", "admin |user")
+class product{
+    _productName;
+    get productName(){
+        return this._productName;
+
+    }
+    set productName(newName){
+        if(role==="admin"){
+            this._productName= newName;
+            
+        }else{
+            document.write(`hello ${userName} you are not authorized to set product name`)
+        }
+    }
+
+
+}
+let obj=new product();
+obj.productName=prompt("Enter your product")
+if(obj.productName)
+{
+    document.write(`product name = ${obj.productName}`)
+
+}
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
