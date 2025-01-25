@@ -8,3 +8,4 @@ function change() {
   }
   document.body.classList.remove("xyz");
 }
+console.log("helo");
